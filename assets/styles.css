@@ -1,0 +1,422 @@
+/* Global Styles */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Styling untuk halaman login */
+.stTitle {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+.stTextInput input {
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.stButton button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stButton button:hover {
+    background-color: #2980b9;
+}
+
+/* Global Styles */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Styling untuk sidebar */
+.sidebar .sidebar-content {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar .sidebar-content select {
+    background-color: #34495e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Styling untuk halaman dashboard */
+.stTitle {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+.stHeader {
+    color: #34495e;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.stTextInput input {
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Styling untuk grafik */
+.plotly-graph-div {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk tabel data */
+.stDataFrame {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk input teks */
+.stTextArea textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Styling untuk footer */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-top: 1px solid #ccc;
+}
+
+/* Styling untuk bagian eksplorasi data */
+.exploration-header {
+    font-size: 2em;
+    color: #2a3d4f;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.exploration-subheader {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-top: 1px solid #ccc;
+}
+
+/* Global Styles */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Styling untuk judul utama */
+h1 {
+    text-align: center;
+    color: #2a3d4f;
+    font-size: 2.5em;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+/* Styling untuk garis pemisah */
+hr {
+    border: 1px solid #2a3d4f;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Styling untuk sidebar */
+.sidebar .sidebar-content {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar .sidebar-content select {
+    background-color: #34495e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Styling untuk grafik */
+.plotly-graph-div {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk dropdown menu */
+.stSelectbox select {
+    background-color: #34495e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Styling untuk input teks dan file upload */
+.stTextInput input,
+.stFileUploader {
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Styling untuk tabel data */
+.stDataFrame {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk footer */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-top: 1px solid #ccc;
+}
+
+/* Global Styles */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Styling untuk judul halaman utama */
+h1 {
+    text-align: center;
+    color: #2a3d4f;
+    font-size: 2.5em;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+/* Styling untuk garis pemisah */
+hr {
+    border: 1px solid #2a3d4f;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Styling untuk sidebar */
+.sidebar .sidebar-content {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar .sidebar-content select {
+    background-color: #34495e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Styling untuk grafik dan plot */
+.plotly-graph-div, .stPyplot {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk input file */
+.stFileUploader {
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Styling untuk subjudul model */
+.subheader {
+    color: #2a3d4f;
+    font-size: 1.8em;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+/* Styling untuk teks dan tabel hasil */
+.stText, .stDataFrame {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Styling untuk footer */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-top: 1px solid #ccc;
+}
+
+/* Global Styles */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Styling untuk judul halaman utama */
+h1 {
+    text-align: center;
+    color: #2a3d4f;
+    font-size: 2.5em;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+/* Styling untuk garis pemisah */
+hr {
+    border: 1px solid #2a3d4f;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Styling untuk sidebar */
+.sidebar .sidebar-content {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar .sidebar-content select {
+    background-color: #34495e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Styling untuk input file */
+.stFileUploader {
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Styling untuk dropdown menu */
+select {
+    background-color: #34495e;
+    color: white;
+    font-size: 1.1em;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Styling untuk teks dan tabel hasil */
+.stText, .stDataFrame {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Styling untuk grafik dan plot */
+.plotly-graph-div, .stPyplot {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk subjudul model */
+.subheader {
+    color: #2a3d4f;
+    font-size: 1.8em;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+/* Styling untuk footer */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-top: 1px solid #ccc;
+}
